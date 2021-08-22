@@ -1,0 +1,8 @@
+<template>
+    <lightning-card>
+        <h2>Communication Between Components</h2>
+        <c-child-component item-name="Value from Parent" text-val="Get/Set Val"></c-child-component> <!--Pass down info to child-->
+        <lightning-button onclick={handleclick} label="Call Child Method"></lightning-button>
+    </lightning-card>
+    
+</template>
